@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indexbar_textSize">12sp</dimen>
+    <dimen name="indexbar_tips_textSize">24sp</dimen>
+    <dimen name="indexbar_textSize_choose">16sp</dimen>
+    <dimen name="indexbar_textSize_tips">16sp</dimen>
+    <dimen name="indexbar_height_tips">52dp</dimen>
+    <dimen name="indexbar_height_item">15dp</dimen>
+    <dimen name="indexbar_padding">6dp</dimen>
+</resources>

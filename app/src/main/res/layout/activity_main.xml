@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.spirals.indexbar.MainActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<cc.solart.wave.WaveSideBarView-->
+    <!--android:id="@+id/side_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+
+    <!--<cn.spirals.indexbar.BezierTipsView-->
+        <!--android:id="@+id/bezier_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</cn.spirals.indexbar.BezierTipsView>  -->
+
+    <!--<cn.spirals.indexbar.BezierBannerDotDemo-->
+        <!--android:id="@+id/bezier_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</cn.spirals.indexbar.BezierBannerDotDemo>-->
+
+    <cn.spirals.superindexbar.IndexBar
+        android:id="@+id/side_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:sidebarItemHeight="@dimen/indexbar_height_item"
+        app:sidebarTextColor="@color/common_text_gray"
+        app:sidebarTextColorChoose="@color/contacts_tab_under_line"
+        app:sidebarTextPadding="@dimen/indexbar_padding"
+        app:sidebarTextSize="@dimen/indexbar_textSize"
+        app:sidebarTextSizeChoose="@dimen/indexbar_textSize_choose"
+        app:sidebarTipsDrawable="@drawable/qq_contacts_indexbar_tips_bg"
+        app:sidebarTipsTextColorChoose="@android:color/white"
+        app:sidebarTipsTextSize="@dimen/indexbar_tips_textSize" />
+
+</RelativeLayout>
